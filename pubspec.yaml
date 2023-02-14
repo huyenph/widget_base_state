@@ -1,6 +1,6 @@
 name: widget_base_state
 description: A base state for component.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/huyenph/widget_base_state
 
 environment:

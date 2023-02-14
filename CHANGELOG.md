@@ -3,3 +3,5 @@
 - Initital package.
 
 ## 0.0.2
+
+- Implement exceptions
