@@ -3,7 +3,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-abstract class BaseState<T extends StatefulWidget> extends State<T> {
+abstract class BaseState<T extends StatefulWidget> extends State<T>
+    implements Exception {
   GlobalKey<ScaffoldState> get scaffoldKey => _scaffoldKey;
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
